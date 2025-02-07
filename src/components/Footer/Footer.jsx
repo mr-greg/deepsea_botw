@@ -3,7 +3,7 @@ import React from "react";
 import { StyledFooter } from "./StyledFooter";
 import instagram from "../../assets/img/Instagram.png";
 import dribble from "../../assets/img/Dribbble.png";
-import twitter from "../../assets/img/twitter.png";
+import twitter from "../../assets/img/Twitter.png";
 import youtube from "../../assets/img/Youtube.png";
 import sendIcon from "../../assets/img/send-icon.png";
 
