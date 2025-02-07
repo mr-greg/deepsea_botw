@@ -1,26 +1,27 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import styled from "styled-components";
-import Example from "./components/Example/Example";
+import Hero from "./components/Hero/Hero";
+import Description from "./components/Description/Description";
+import Cadran from "./components/Cadran/Cadran";
+import Ice from "./components/Ice/Ice";
+import Mist from "./components/Mist/Mist";
+import Footer from "./components/Footer/Footer";
 
 const StyledHome = styled.div`
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -150%);
-  h1 {
-    font-family: "Roboto";
-    text-align: center;
-  }
+  padding: 0;
 `;
 
 function Home() {
   return (
     <StyledHome>
-      <h1>Hello World.</h1>
-      <Example />
+      <Hero />
+      <Description />
+      <Cadran />
+      <Ice />
+      <Mist />
+      <Footer />
     </StyledHome>
   );
 }
