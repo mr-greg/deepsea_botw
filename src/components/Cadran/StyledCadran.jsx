@@ -15,6 +15,7 @@ export const StyledCadran = styled.section`
     justify-content: center;
 
     padding: 10%;
+    
 
     p {
         font-family: 'Magra';
@@ -22,6 +23,7 @@ export const StyledCadran = styled.section`
         font-size: 40px;
         line-height: 48.6px;
         width: 40%;
+        margin: 0 auto;
     }
 `;
 

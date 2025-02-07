@@ -20,6 +20,7 @@ export const StyledMist = styled.section`
         font-size: 40px;
         line-height: 48.6px;
         width: 40%;
+        margin: 0 auto;
     }
 `;
 
