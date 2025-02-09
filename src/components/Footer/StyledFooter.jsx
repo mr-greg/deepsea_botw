@@ -16,7 +16,7 @@ export const StyledFooter = styled.section`
         display: flex;
         padding: 25px 5% 5%;
         justify-content: space-between;
-
+        flex-wrap: wrap;
         .infos {
             p {
                 font-family: 'Work Sans';
@@ -69,5 +69,23 @@ export const StyledFooter = styled.section`
         }
     }
     
+    @media (max-width: 900px) {
+        padding: 50px 0;
+
+        h4 {
+            text-align: center;
+        }
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+
+            .newsletter {
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
 `;
 

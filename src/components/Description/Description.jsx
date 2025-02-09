@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Description = () => {
   return (
-    <StyledDescription>
+    <StyledDescription id="description">
 
       <motion.div className="left" initial={{ opacity: 0, y: 150 }} whileInView={{ opacity: 1, y: 0, transition: { duration: 0.8 }}}>
         Conçue pour les explorateurs des abysses, la Rolex Deepsea incarne l’alliance ultime entre performance extrême, précision horlogère et robustesse inégalée. Véritable prouesse d’ingénierie, cette montre de plongée professionnelle est le fruit de décennies d’innovation et d’expertise Rolex.

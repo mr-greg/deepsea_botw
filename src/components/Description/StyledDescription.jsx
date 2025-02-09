@@ -18,5 +18,15 @@ export const StyledDescription = styled.section`
         font-weight: 400;
         line-height: 38.88px;
     }
+
+    @media (max-width: 500px) {
+        padding: 35px 10%;
+        .left {
+            font-size: 28px;
+        }
+        .right {
+            font-size: 22px;
+        }
+    }
 `;
 

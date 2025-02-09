@@ -8,11 +8,12 @@ export const StyledMist = styled.section`
     background-repeat: no-repeat;
     background-attachment: fixed;
   
-    height: 100dvh;
+    min-height: 100dvh;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 35px 0;
 
     p {
         font-family: 'Magra';
@@ -21,6 +22,13 @@ export const StyledMist = styled.section`
         line-height: 48.6px;
         width: 40%;
         margin: 0 auto;
+    }
+
+    @media (max-width: 500px) {
+        padding: 0 10%;
+        p {
+            width: 100%;
+        }
     }
 `;
 

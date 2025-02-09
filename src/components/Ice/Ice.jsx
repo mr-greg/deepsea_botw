@@ -12,7 +12,7 @@ const StyledIce = styled(motion.section)`
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-    height: 100dvh;
+    min-height: 100dvh;
     max-width: 100%;
 `;
 

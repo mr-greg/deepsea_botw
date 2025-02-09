@@ -16,14 +16,22 @@ const Hero = () => {
     setTimeout(handleScrollAnimation, 100); // Ajuster le délai selon tes besoins
   }, []);
 
+  const scrollToDescription = () => {
+    const element = document.getElementById("description");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <StyledHero className={isVisible ? "visible" : ""}>
       <h1>DEEPSEA</h1>
       <h2>L’excellence des profondeurs</h2>
       <span>Montre conçue pour l’exploration extrême</span>
-      <div className="btn">
+      <div className="btn" onClick={scrollToDescription}>
         <span>Explorer la montre</span>
       </div>
+
     </StyledHero>
   );
 };

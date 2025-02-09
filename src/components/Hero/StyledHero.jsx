@@ -3,13 +3,13 @@ import heroWatch from "../../assets/img/hero-watch.png";
 
 export const StyledHero = styled.section`
   position: relative;
-  height: 100dvh;
+  min-height: 100dvh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 4%;
+  gap: 45px;
   overflow: hidden; /* Assurer qu'aucun contenu ne déborde de la section */
 
   /* L'image de fond qui sera animée */
@@ -43,6 +43,10 @@ export const StyledHero = styled.section`
     opacity: 1;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   /* Contenu au premier plan */
   h1, h2, span, .btn {
     position: relative;
@@ -71,6 +75,7 @@ export const StyledHero = styled.section`
     font-size: 64px;
     font-weight: 400;
     line-height: 76.8px;
+    text-align: center;
   }
 
   span {
@@ -83,6 +88,7 @@ export const StyledHero = styled.section`
     padding: 20px 15px;
     background-color: rgba(212, 175, 55, 1);
     gap: 8px;
+    cursor: pointer;
 
     span {
       font-size: 36px;
