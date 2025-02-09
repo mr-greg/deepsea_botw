@@ -97,4 +97,25 @@ export const StyledHero = styled.section`
       color: rgba(10, 10, 10, 1);
     }
   }
+
+  
+  @media (max-width: 900px) {
+    h1 {
+    font-size: 48px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    span {
+      font-size: 16px;
+    }
+
+    .btn {
+      span {
+        font-size: 24px;
+      }
+    }
+  }
 `;

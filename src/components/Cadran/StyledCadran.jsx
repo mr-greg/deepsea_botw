@@ -29,6 +29,7 @@ export const StyledCadran = styled.section`
     @media (max-width: 900px) {
         p {
             width: 80%;
+            font-size: 28px;
         }
     }
 `;

@@ -24,6 +24,12 @@ export const StyledMist = styled.section`
         margin: 0 auto;
     }
 
+    @media (max-width: 900px) {
+        p {
+            font-size: 28px;
+        }
+    }
+
     @media (max-width: 500px) {
         padding: 0 10%;
         p {

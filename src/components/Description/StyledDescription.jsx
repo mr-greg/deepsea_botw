@@ -5,6 +5,7 @@ export const StyledDescription = styled.section`
     display: flex;
     justify-content: center;
     gap: 5%;
+    min-height: 100dvh;
 
     .left {
         font-family: 'Magra';
@@ -19,13 +20,22 @@ export const StyledDescription = styled.section`
         line-height: 38.88px;
     }
 
-    @media (max-width: 500px) {
-        padding: 35px 10%;
+    @media (max-width: 900px) {
         .left {
             font-size: 28px;
         }
         .right {
             font-size: 22px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        padding: 35px 10%;
+        .left {
+            font-size: 20px;
+        }
+        .right {
+            font-size: 18px;
         }
     }
 `;

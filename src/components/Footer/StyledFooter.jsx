@@ -80,6 +80,12 @@ export const StyledFooter = styled.section`
             align-items: center;
             gap: 25px;
 
+            .infos {
+                p {
+                    text-align: center;
+                }
+            }
+
             .newsletter {
                 p {
                     text-align: center;
